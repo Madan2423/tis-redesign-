@@ -1,16 +1,144 @@
-# React + Vite
+# Tulas International School — Website Redesign
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, animated and responsive homepage redesign for **Tulas International School (TIS), Dehradun**.
 
-Currently, two official plugins are available:
+The project focuses on creating a premium educational website experience while retaining the school's core identity, messaging and content.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Demo
 
-## React Compiler
+https://YOUR-VERCEL-URL.vercel.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## GitHub Repository
 
-## Expanding the Oxlint configuration
+https://github.com/YOUR-GITHUB-USERNAME/tis-redesign
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+---
+
+## Project Overview
+
+This project was developed as a frontend development task for Tulas International School.
+
+The objective was to redesign the homepage with:
+
+- Modern visual design
+- Smooth animations
+- Responsive layouts
+- Interactive UI elements
+- Clear calls-to-action
+- Component-based React architecture
+- Mobile, tablet and desktop support
+
+---
+
+## Features
+
+### Responsive Design
+
+The website is designed for:
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile devices
+
+### Smooth Animations
+
+Framer Motion is used for:
+
+- Scroll-triggered reveals
+- Section animations
+- Interactive elements
+- Entrance transitions
+
+### Custom Cursor
+
+A custom cursor interaction is implemented for desktop users to provide a more immersive experience.
+
+### Scroll Progress
+
+A scroll progress indicator provides visual feedback about the user's position on the page.
+
+### Interactive Navigation
+
+The navigation allows users to quickly move between:
+
+- About
+- Experience
+- Beyond Academics
+- Virtual Tour
+- Testimonials
+- Admissions
+- Contact
+
+### Responsive Mobile Navigation
+
+The navigation adapts to smaller screen sizes while maintaining accessibility and usability.
+
+---
+
+## Tech Stack
+
+### Frontend
+
+- React.js
+- Vite
+- JavaScript
+- Tailwind CSS
+
+### Animation
+
+- Framer Motion
+
+### Icons
+
+- Lucide React
+
+### Deployment
+
+- Vercel
+
+### Version Control
+
+- Git
+- GitHub
+
+---
+
+## Project Structure
+
+```text
+tis-redesign/
+│
+├── public/
+│   └── favicon.svg
+│
+├── src/
+│   │
+│   ├── assets/
+│   │
+│   ├── components/
+│   │   ├── About.jsx
+│   │   ├── Achievements.jsx
+│   │   ├── AdmissionCTA.jsx
+│   │   ├── CustomCursor.jsx
+│   │   ├── Experience.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── ScrollProgress.jsx
+│   │   ├── Sports.jsx
+│   │   ├── Stats.jsx
+│   │   ├── Testimonials.jsx
+│   │   └── VirtualTour.jsx
+│   │
+│   ├── data/
+│   │   └── schoolData.js
+│   │
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+├── package-lock.json
+└── README.md
