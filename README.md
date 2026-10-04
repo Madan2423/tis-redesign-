@@ -6,7 +6,7 @@ The project focuses on creating a premium educational website experience while r
 
 ## Live Demo
 
-https://YOUR-VERCEL-URL.vercel.app
+https://vercel.com/madan2423s-projects/tis-redesign
 
 ## GitHub Repository
 
