@@ -10,7 +10,7 @@ https://vercel.com/madan2423s-projects/tis-redesign
 
 ## GitHub Repository
 
-https://github.com/YOUR-GITHUB-USERNAME/tis-redesign
+https://github.com/Madan2423/tis-redesign-
 
 ---
 
